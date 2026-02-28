@@ -10,13 +10,10 @@ int main(void){
 
     if(a>b){
         cout << a << " é maior que " << b << "\n";
-    }
-    else if(a<b){
+    } else if(a<b){
         cout << a << " é menor que " << b << "\n";
-    }
-    else{
+    } else{
         cout << a << " é igual a " << b << "\n";
-    }
-    
+    } 
     return 0;
 }

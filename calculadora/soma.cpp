@@ -10,7 +10,7 @@ int main(void){
 
     res = a / b;
 
-    cout << "A divisão dos números é " << res << "\n";
+    cout << "O quociente dos números é " << res << "\n";
 
     return 0;
 }
