@@ -11,14 +11,27 @@ int main(void){
             w++;
         }
     }
-    if(w>=5){
-        cout << "1\n";
-    }else if(w>=3){
-        cout << "2\n";
-    }else if(w>=1){
-        cout << "3\n";
-    }else{
-        cout << "-1\n";
+    switch(w){
+        case 6:
+            cout << "1\n";
+            break;
+        case 5:
+            cout << "1\n";
+            break;
+        case 4:
+            cout << "2\n";
+            break;
+        case 3:
+            cout << "2\n";
+            break;
+        case 2:
+            cout << "3\n";
+            break;
+        case 1:
+            cout << "3\n";
+            break;
+        default:
+            cout << "-1\n";
     }
     return 0;
 }
