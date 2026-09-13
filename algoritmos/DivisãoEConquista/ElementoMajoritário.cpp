@@ -6,8 +6,11 @@ int main(void){
     int n;
     cin >> n;
 
-    int S[n];
+    int L[n];
     for(int i=0; i<n; i++){
-        cin >> S[i];
+        cin >> L[i];
     }
+    
+    int* p = L;
+    
 }

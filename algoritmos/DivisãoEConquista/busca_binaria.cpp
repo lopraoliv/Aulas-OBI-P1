@@ -2,7 +2,7 @@
 
 using namespace std;
 
-bool Achando(int X, int* p, int tam);
+bool Achando(int X, int* L, int tam);
 
 int main(void){
     int n;
