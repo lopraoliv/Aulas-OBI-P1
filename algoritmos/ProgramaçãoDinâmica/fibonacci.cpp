@@ -21,6 +21,6 @@ int Fibonacci(int a){
     }else if((a == 1) || (a == 2)){
         return 1;
     }else{
-        return (Fibonacci(N-1) + Fibonacci(N-2));
+        return (Fibonacci(a-1) + Fibonacci(a-2));
     }
 }
